@@ -112,7 +112,3 @@ Here follows the options to be used for assembly:
 - `PCB thickness` has been tested on both 1.6mm and 1.2mm so it's your call on which one to use.
 
 - For `Material Type` I strongly suggest to use `FR-4 TG155`, using the standard `FR4-Standard TG130-140` material might result in the board delamination and generally is not advised on 4 layer boards.
-
-## Copyright notice
-
-This project is released under the MIT License. For the license, please refer to the LICENSE.md file.
