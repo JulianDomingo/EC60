@@ -11,18 +11,19 @@ The supported layout options are the following:
 ![Layout option](/Assets/Layout_option.png)
 
 Mapping is purely for demonstration purposes, remapping of all keys is supported.
+
 ## Technical information
 
 - Layout size: 60% (GH60 outline and mounting points, see pictures below)
 - Compatible switches: EC switches (Topre and NIZ)
 - Microcontroller: STM32F401
 - Connector:
-    * USB-C
-    * JST connector for daughterboard
+  - USB-C
+  - JST connector for daughterboard
 - Firmware compatibility: QMK (with VIA/VIAL support)
 - Protection hardware (on all connection methods):
-  * Fused
-  * ESD protection
+  - Fused
+  - ESD protection
 
 ## Renders and Prototypes
 
@@ -37,14 +38,16 @@ Mainboard:
 ### Prototype
 
 #### Rev 1
+
 ![PCB Front](/Assets/PCB_front.png)
 
 ![PCB Back](/Assets/PCB_back.png)
 
 #### Rev 1.1
+
 ![PCB 1.1](/Assets/PCB_1_1.png)
 
-*NOTE*: the prototype PCB for Rev1 doesn't include a USB port and the JST connector is in a different position compared to the one in the render. This is because the above was a modified version of the PCB to be used in Vero. For all intents and purposes, the PCB is the same.
+_NOTE_: the prototype PCB for Rev1 doesn't include a USB port and the JST connector is in a different position compared to the one in the render. This is because the above was a modified version of the PCB to be used in Vero. For all intents and purposes, the PCB is the same.
 
 ## Revisions and relative features
 
@@ -101,6 +104,7 @@ All the other options can be left as default.
 #### Assembly options
 
 Here follows the options to be used for assembly:
+
 - Assembly Side: Bottom
 - Tooling holes: `Added by JLCPCB`
 - Confirm Parts Placement: `yes`
@@ -112,3 +116,7 @@ Here follows the options to be used for assembly:
 - `PCB thickness` has been tested on both 1.6mm and 1.2mm so it's your call on which one to use.
 
 - For `Material Type` I strongly suggest to use `FR-4 TG155`, using the standard `FR4-Standard TG130-140` material might result in the board delamination and generally is not advised on 4 layer boards.
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
